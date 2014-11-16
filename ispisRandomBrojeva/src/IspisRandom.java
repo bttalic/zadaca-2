@@ -5,10 +5,12 @@ public static void main(String[] args) {
 	
 			int minimum = 10000;
 			int maximum = 100000;
-
+			//koji je max broj ovdje?
 			int broj = (int) (minimum + Math.random() * (maximum - minimum + 1));
 			System.out.println("Random broj glasi: " + broj);
 			System.out.println("Ispis random brojeva unaprijed");
+			
+			//treba li ti ovoliko varijabli ?
 			int brojPet = (int) broj / 10000;
 			System.out.println(brojPet);
 			
