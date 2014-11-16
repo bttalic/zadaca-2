@@ -7,8 +7,8 @@ public static void main(String[] args) {
 			int maximum = 100000;
 
 			int broj = (int) (minimum + Math.random() * (maximum - minimum + 1));
-			System.out.println("Random broj glasi: " + broj);
-			System.out.println("Ispis random brojeva unaprijed");
+			System.out.println(broj);
+			
 			int brojPet = (int) broj / 10000;
 			System.out.println(brojPet);
 			
